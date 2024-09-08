@@ -1,0 +1,23 @@
+let mapleader=" "
+
+" ----------- Mappings -----------
+nmap <leader>o <Action>(SearchEverywhere)
+nmap <leader>l <Action>(ActivateProjectToolWindow)  " To deactivate press shift + esc
+nmap <leader>t <Action>(ActivateTerminalToolWindow) " To deactivate press shift + esc
+nmap H         <Action>(PreviousTab)
+nmap L         <Action>(NextTab)
+
+" ----------- Settings -----------
+set scrolloff=5
+set incsearch
+set number relativenumber
+
+" ----------- Plugins -----------
+Plug 'machakann/vim-highlightedyank'
+" highlights yanked text
+Plug 'tpope/vim-commentary'
+" use gcc to comment current line | use gc in visual to comment out visual block
+
+
+" Plug 'preservim/nerdtree'
+" helps to open up and move filetree. Might be helpful in the future.
